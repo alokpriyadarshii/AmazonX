@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT;
 const userName = process.env.DB_USERNAME;
 const password = encodeURIComponent(process.env.DB_PASSWORD);
-const DB = `mongodb+srv://${userName}:${password}@cluster0.fkliyeh.mongodb.net/flutterzon?retryWrites=true&w=majority`
+const DB = `mongodb+srv://${userName}:${password}@cluster0.fkliyeh.mongodb.net/amazonx?retryWrites=true&w=majority`
 
 
 // middleware
@@ -31,8 +31,8 @@ mongoose.connect(DB).then(()=>{
 })
 
 
-app.get("/flutterzon" , (req, res) => {
-    res.send("Welcome to Flutterzon!");
+app.get("/amazonx" , (req, res) => {
+    res.send("Welcome to AmazonX!");
 })
 
 app.listen(PORT, "0.0.0.0",() => {
