@@ -12,7 +12,7 @@ productRouter.get('/api/products', auth ,async (req, res)=>{
 
         res.json(products);
     } catch (error) {
-        res.status(500).json({error : e.message});
+        res.status(500).json({error : error.message});
     }
 })
 
@@ -23,7 +23,7 @@ productRouter.get('/api/products/search/:name', auth ,async (req, res) => {
         });
         res.json(products);
     } catch (error) {
-        res.status(500).json({error : e.message});
+        res.status(500).json({error : error.message});
     }
 });
 
@@ -160,4 +160,3 @@ productRouter.get("/api/deal-of-the-day", auth, async (req, res) => {
 
 
 module.exports = productRouter;
-
