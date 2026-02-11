@@ -68,8 +68,7 @@ productRouter.get("/api/get-product-rating/:id", auth , async (req, res) => {
         for(let i=0; i< product.ratings.length; i++){
             if(product.ratings[i].userId == req.user){
                 rating = product.ratings[i].rating;
-            } else {
-                rating = -1.0;
+                break;
             }
         }
         
