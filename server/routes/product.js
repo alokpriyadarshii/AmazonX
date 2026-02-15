@@ -52,7 +52,7 @@ productRouter.post("/api/rate-product", auth, async (req, res) => {
 
 
     } catch (e) {
-        res.status(700).json({error : e.message});
+        res.status(500).json({error : e.message});
     }
 });
 
