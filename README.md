@@ -1,6 +1,6 @@
 # AmazonX
 
-A full stack Amazon style **E-commerce clone** built with **Flutter** (client) + **Node/Express** (server) + **MongoDB**.  
+A full stack Amazon style **E commerce clone** built with **Flutter** (client) + **Node/Express** (server) + **MongoDB**.  
 This is a **learning/demo project** — great for practicing real app flows like auth, product browsing, cart, orders, and an admin panel.
 
 ---
