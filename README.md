@@ -14,7 +14,7 @@ This is a **learning/demo project** — great for practicing real app flows like
 - Orders + order details + browsing history + wishlists
 - Admin panel (add/delete products, offers, analytics graph, manage orders)
 - Cloudinary image upload (admin)
-- Google Pay / Buy Now flow (test-mode friendly)
+- Google Pay / Buy Now flow (test mode friendly)
 
 ---
 
